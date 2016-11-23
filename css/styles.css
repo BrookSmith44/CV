@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  overflow-x: hidden;
 }
 .wrapper {
   min-width: 100%;
@@ -10,7 +14,7 @@
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size: cover;
+  -ms-background-size cover;
   filter: blur(20px;);
   display: flex;
   flex-direction: column;
@@ -24,11 +28,31 @@ header {
   order: 0;
   top: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
 header img {
   width: 18vmin;
   height: 18vmin;
+}
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+li {
+  width: 20vmin;
+  margin: 10vmin;
+  margin-bottom: 0;
+  margin-top: 3vmin;
+  list-style: none;
+  text-align: center;
+  border-bottom: 3px solid #9fff80;
+  font-size: 3vmin;
+}
+a {
+  text-decoration: none;
+  color: #9fff80;
 }
 /* End of header */
 main {
