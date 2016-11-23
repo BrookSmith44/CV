@@ -1,6 +1,6 @@
 # csy1018-assign1
 First assignment for csy1018 (Web Development)
-
+#####21/11/2016
 ##Design
 ###Index page
 
@@ -11,3 +11,11 @@ The header links will have hover effects so the employers know that they are lin
 There will be text in the middle of the screen with my name and what I am currently doing.
 
 ![A very basic example of the _index.html_ layout](https://i.gyazo.com/9dbdebda027921a148bbee8494b51bb4.png) 
+
+#####23/11/2016
+
+##Began coding _index.html_
+
+To begin I wanted to code the layout of the page so that I could have a base to in which I would experiment with the code until it looks good.
+
+![_index.html_ Page Layout](https://i.gyazo.com/2067f6e63442b60d44acc6831788ab93.png)
