@@ -37,22 +37,28 @@ header img {
 ul {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
 }
 li {
   width: 20vmin;
-  margin: 10vmin;
-  margin-bottom: 0;
-  margin-top: 3vmin;
+  height: 100%;
   list-style: none;
   text-align: center;
-  border-bottom: 3px solid #9fff80;
   font-size: 3vmin;
+  border-bottom: 3px solid #9fff80;
+  transition: all 1.5s;
 }
 a {
+  height: 95%;
+  width: 20vmin;
   text-decoration: none;
   color: #9fff80;
+  line-height: 9.5vh;
+}
+li:hover {
+  box-shadow: inset 0 -100px 0 0 #9fff80;
+  color: #333;
 }
 /* End of header */
 main {
