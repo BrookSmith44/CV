@@ -1,5 +1,6 @@
 # csy1018-assign1
 First assignment for csy1018 (Web Development)
+
 #####21/11/2016
 ##Design
 ###Index page
@@ -12,6 +13,8 @@ There will be text in the middle of the screen with my name and what I am curren
 
 ![A very basic example of the _index.html_ layout](https://i.gyazo.com/9dbdebda027921a148bbee8494b51bb4.png) 
 
+
+
 #####23/11/2016
 
 ##Began coding _index.html_
@@ -23,3 +26,16 @@ To begin I wanted to code the layout of the page so that I could have a base to 
 Then started making the button links in the header which will lead to _contact.html, bio.html, cv.html_ and _gallery.htm_. They were designed to only have a  bottom border and no background colour so that when a hover effect is included it will look like the colour is leaking out of the border. 
 
 ![_index.html_ Header Links](https://i.gyazo.com/2f93ec8f82bc1c2dba768984523c7763.jpg)
+
+
+
+#####29/11/2016
+
+##Finishing the _index.html_ page for desktop
+Finished the _index.html_ page by adding a link to the logo so that it links back to _index.html_ as the header will be consistent throughout the entire website it will always be a way to get back to this page. Also added box shadow to the header so it appears that the header is hovering above the main. 
+
+I also added my name and current occupation in the main with a transparent background and solid border.
+
+Put email and copyright in the footer.
+
+![_index.html_finished look for desktop](https://i.gyazo.com/2d379ab91af54c54e435145ccb8e4d99.jpg)
