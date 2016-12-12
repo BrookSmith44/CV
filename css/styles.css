@@ -3,12 +3,14 @@
   padding: 0;
   border: 0;
   font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 }
 body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
 }
+/* Start of index.html */
 .wrapper {
   width: 100vw;
   height: 100vh;
@@ -23,7 +25,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* Start of header */
+/* Start of header- every page*/
 
 header {
   width: 100%;
@@ -34,6 +36,7 @@ header {
   display: flex;
   flex-direction: row;
   box-shadow: 0 5px 20px black;
+  order: 1;
 }
 nav {
   width: 100%;
@@ -42,6 +45,7 @@ nav {
 a img {
   width: 18vmin;
   height: 18vmin;
+  position: sticky;
   transition: all 1s;
 
 }
@@ -53,8 +57,9 @@ nav ul {
   flex-direction: row;
 
 }
-nav li {
+nav ul li {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 20vmin;
   height: 100%;
@@ -65,7 +70,7 @@ nav li {
   border-bottom: 3px solid #9fff80;
   transition: all 1.5s;
 }
-li a {
+ a li {
   width: 20vmin;
   text-decoration: none;
   color: #9fff80;
@@ -82,19 +87,20 @@ a img:hover {
   transform: rotate(360deg) scale(1.2);
 }
 
-/* End of header */
+/* End of header- every page */
 
 /* Start of main */
 
-main {
+.main-index {
   width: 100%;
-  height: 87%;
+  min-height: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  order: 2;
 }
-main ul {
+.main-index ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -105,7 +111,7 @@ main ul {
   border-radius: 5px;
   border-bottom: 1vmin solid black;
 }
-main li {
+.main-index li {
   display: flex;
   align-items: center;
   color: white;
@@ -131,10 +137,10 @@ main li {
   display: flex;
   justify-content: flex-end;
 }
-main h1 {
+.main-index h1 {
   font-size: 5vmin;
 }
-main h3 {
+.main-index h3 {
   font-size: 3vmin;
 }
 .picture img {
@@ -145,14 +151,15 @@ main h3 {
 
 /* End of main */
 
-/* Start of footer */
+/* Start of footer- every page */
 footer {
   width: 100%;
-  height: 3%;
+  height: 5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #333;
+  order: 3;
 }
 footer a {
   color: #9fff80;
@@ -160,9 +167,15 @@ footer a {
   margin-right: 1vmin;
   font-size: 2vmin;
 }
+.icons {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
 i {
   color: white;
   cursor: pointer;
+  font-size: 2vmin;
 }
 i p {
   display: none;
@@ -178,6 +191,190 @@ i:hover p {
   display: inline-block;
 }
 .cr {
+  display: flex;
+  align-items: center;
   margin-right: 10vmin;
+  width: 25%;
+  height: 100%;
 }
-/* End of footer */
+
+/* End of footer-every page */
+
+/* End if index.html */
+
+/* start of cv.html */
+
+/* start of main-cv */
+.content-wrapper {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  order: 2;
+}
+.main-cv {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aside-cv {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-wrapper section {
+  height: 40%;
+  width: 90%;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: 1vmin solid black;
+  border-radius: 5vmin;
+  margin: 5vmin;
+}
+/* end of main-cv */
+
+/* end of cv.html */
+
+/* Start of Media Query */
+
+@media screen and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+
+
+  /* start of Media query for main */
+
+  .main-index {
+    width: 100%;
+    min-height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    order: 2;
+  }
+  .main-index ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    width: 75%;
+    height: 70%;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px;
+    border-bottom: 1vmin solid black;
+  }
+  .main-index li {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    height: 100%;
+  }
+  .name {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+  }
+  .study {
+    height: 100%;
+    width: 100%;
+    margin: 5%;
+  }
+  .picture {
+    height: 20vmin;
+    width: 18vmin;
+    margin: 5%;
+  }
+  li .picture img {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .main-index h1 {
+    font-size: 5vmin;
+  }
+  .main-index h3 {
+    font-size: 3vmin;
+  }
+  .picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 5px 0 0;
+  }
+  /* start of Media query */
+}
+@media screen and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+
+
+  /* start of Media query for main */
+
+  .main-index {
+    width: 100%;
+    min-height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    order: 2;
+  }
+  .main-index ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    width: 75%;
+    height: 70%;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px;
+    border-bottom: 1vmin solid black;
+  }
+  .main-index li {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    height: 100%;
+  }
+  .name {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+  }
+  .study {
+    height: 100%;
+    width: 100%;
+    margin: 5%;
+  }
+  .picture {
+    height: 20vmin;
+    width: 18vmin;
+    margin: 5%;
+  }
+  li .picture img {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .main-index h1 {
+    font-size: 5vmin;
+  }
+  .main-index h3 {
+    font-size: 3vmin;
+  }
+  .picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 5px 0 0;
+  }
+  /* start of Media query for main */
+}
+
+/* end of Media Query */
