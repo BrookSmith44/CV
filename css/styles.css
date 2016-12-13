@@ -216,7 +216,6 @@ i:hover p {
   height: 100%;
   width: 50%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -229,12 +228,66 @@ i:hover p {
   align-items: center;
 }
 .content-wrapper section {
-  height: 40%;
-  width: 90%;
   background-color: rgba(51, 51, 51, 0.5);
   border: 1vmin solid black;
-  border-radius: 5vmin;
-  margin: 5vmin;
+  border-radius: 20px;
+  margin: 2.5%;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.wrapper-ul {
+  width: 50%;
+}
+.main-cv section {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content-wrapper section h4 {
+  margin: 5%;
+}
+.main-cv section ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.content-wrapper section li {
+  width: 70%;
+  margin: 1%;
+  font-size: 2.5vmin;
+}
+.aside-cv section {
+  height: 40%;
+  width: 50%;
+}
+.aside-cv .subtitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.aside-cv ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.aside-cv ul li {
+  justify-content: center;
+}
+.subtitle {
+  text-decoration: none;
+  list-style: none;
+  margin: 2.5%;
+  width: 100%;
+}
+.indented {
+  list-style: inside;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* end of main-cv */
 
@@ -281,16 +334,19 @@ i:hover p {
     display: flex;
     justify-content: center;
     margin: 5%;
+    order: 1;
   }
   .study {
     height: 100%;
     width: 100%;
     margin: 5%;
+    order: 3;
   }
   .picture {
     height: 20vmin;
     width: 18vmin;
     margin: 5%;
+    order: 2;
   }
   li .picture img {
     border: 1px solid black;
@@ -305,7 +361,7 @@ i:hover p {
   .picture img {
     height: 100%;
     width: 100%;
-    border-radius: 0 5px 0 0;
+    border-radius: 5px;
   }
   /* start of Media query */
 }
@@ -348,16 +404,19 @@ i:hover p {
     display: flex;
     justify-content: center;
     margin: 5%;
+    order: 1;
   }
   .study {
     height: 100%;
     width: 100%;
     margin: 5%;
+    order: 3;
   }
   .picture {
     height: 20vmin;
     width: 18vmin;
     margin: 5%;
+    order: 2;
   }
   li .picture img {
     border: 1px solid black;
@@ -372,9 +431,72 @@ i:hover p {
   .picture img {
     height: 100%;
     width: 100%;
-    border-radius: 0 5px 0 0;
+    border-radius: 5px;
   }
-  /* start of Media query for main */
 }
+@media (max-width: 600px) {
 
+  .main-index {
+    width: 100%;
+    min-height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    order: 2;
+  }
+  .main-index ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+    width: 75%;
+    height: 70%;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 5px;
+    border-bottom: 1vmin solid black;
+  }
+  .main-index li {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    height: 100%;
+  }
+  .name {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    order: 1;
+  }
+  .study {
+    height: 100%;
+    width: 100%;
+    margin: 5%;
+    order: 3;
+  }
+  .picture {
+    height: 20vmin;
+    width: 18vmin;
+    margin: 5%;
+    order: 2;
+  }
+  li .picture img {
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .main-index h1 {
+    font-size: 5vmin;
+  }
+  .main-index h3 {
+    font-size: 3vmin;
+  }
+  .picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
 /* end of Media Query */
