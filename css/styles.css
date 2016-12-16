@@ -9,16 +9,16 @@ body {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-}
-/* Start of index.html */
-.wrapper {
-  width: 100vw;
-  height: 100vh;
   background-image: url("../images/architecture.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -ms-background-size cover;
+}
+/* Start of index.html */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -203,8 +203,6 @@ i:hover p {
 /* End if index.html */
 
 /* start of cv.html */
-
-/* start of main-cv */
 .content-wrapper {
   height: 85%;
   width: 100%;
@@ -213,6 +211,7 @@ i:hover p {
   order: 2;
 }
 .main-cv {
+  .aside-bio-right
   height: 100%;
   width: 50%;
   display: flex;
@@ -256,7 +255,7 @@ i:hover p {
 .content-wrapper section li {
   width: 70%;
   margin: 1%;
-  font-size: 2.5vmin;
+  font-size: 2.3vmin;
 }
 .aside-cv section {
   height: 40%;
@@ -273,9 +272,6 @@ i:hover p {
   display: flex;
   flex-direction: column;
 }
-.aside-cv ul li {
-  justify-content: center;
-}
 .subtitle {
   text-decoration: none;
   list-style: none;
@@ -289,13 +285,81 @@ i:hover p {
   flex-direction: column;
   align-items: center;
 }
-/* end of main-cv */
 
 /* end of cv.html */
 
+/* start of bio.html */
+
+.main-bio {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  order: 2;
+}
+.content-banner-top {
+  width: 85.4%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 7.3%;
+  margin-right: 7.3%;
+}
+.middle-bio {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.aside-bio-left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.bio-text-container {
+  width: 60%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+  border: 1vmin solid black;
+  border-radius: 20px;
+}
+.aside-bio-right {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-banner-bottom {
+  width: 85.4%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 7.3%;
+  margin-right: 7.3%;
+
+}
+.main-bio a {
+  height: 10vmin;
+  width: 10vmin;
+  border: 0.5vmin solid black;
+  border-radius: 50%;
+}
+/* end of bio.html */
+
 /* Start of Media Query */
 
-@media screen and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+@media screen and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)
+{
 
 
   /* start of Media query for main */
@@ -434,7 +498,7 @@ i:hover p {
     border-radius: 5px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
   .main-index {
     width: 100%;
@@ -498,5 +562,12 @@ i:hover p {
     height: 100%;
     width: 100%;
     border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+
+  .content-wrapper section li {
+    font-size: 2vmin;
+  }
 }
 /* end of Media Query */

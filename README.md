@@ -50,3 +50,17 @@ Added image of myself to the main, however making the image responsive proved to
 Added icons to the footer that show contact details when hovered over and two of them are links to social media accounts, these also proved difficult to make responsive so a media query may also have to be used in order to make them more responsive.
 
 ![_index.html_ background change with icons on footer](https://i.gyazo.com/e4d72521d628d14f8ca71fcfd8fec3bd.jpg)
+
+##Design
+###CV page
+The _CV.html_ page will have the same header and footer of the _index.html_ as will all the pages. The page will be split into four section, Qualifications, Experience, Skills and Hobbies. 
+
+![_cv.html_ very basic layout design](https://i.gyazo.com/a3e86735f46ce24866d47274c9353d71.png)
+
+
+#####16/12/2016
+##_CV.html_
+
+Changed the layout of the _cv.html_ compared to the way it was designed. Took out hobbies and decided to have Qualifications on the left by itself as it contains a large amount of content whereas experience and skills has considerable less. Also changed the links at the top.
+
+![_cv.html_ finished content](https://i.gyazo.com/a50ce2165ca6f92945c947fea327b2ee.jpg)
