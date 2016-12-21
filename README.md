@@ -5,7 +5,7 @@ First assignment for csy1018 (Web Development)
 ##Design
 ###Index page
 
-The index page will have a basic design in which there will be a header with links to the _cv.hmtl, bio.html, contact.html_ and _a gallery page_. The header will also have my personal logo in the centre with two the links on either side of the logo. The background image will be one from a photo I have already taken to make it more personal to me and help avoid copyright .
+The index page will have a basic design in which there will be a header with links to the _cv.hmtl, bio.html, contact.html_ and _a gallery page_. The header will also have my personal logo in the centre with two the links on either side of the logo. The background image will be one from a image from [pixabay](https://pixabay.com/).
 
 The header links will have hover effects so the employers know that they are links using a colour a colour basic colour scheme of green and black. 
 
@@ -69,7 +69,7 @@ Changed the layout of the _cv.html_ compared to the way it was designed. Took ou
 ##Design
 ###bio page
 
-The _bio.html_ page will have the same header and footer of the _index.html_ as will all the pages. The page will be split into four section, University, Football and Hobbies (due to cutting hobbies from the _cv.html_ because of spacing issues). 
+The _bio.html_ page will have the same header and footer of the _index.html_ as will all the pages. The page will have into three blocks of information, University, Football and Hobbies (due to cutting hobbies from the _cv.html_ because of spacing issues). 
 
 ![_bio.html_ basic layout](https://i.gyazo.com/ce178b3c3fb384c9608717eacdbd43a0.png)
 
@@ -80,3 +80,16 @@ The layout of the _bio.html_ is basically the same as the design except graphica
 Also the header was changed by adding icons as a graphical representation.
 
 ![Finished content](https://i.gyazo.com/c7017a4b84c91eef9889d4764adcf7ad.jpg)
+
+##Design
+###contact page
+
+The _bio.html_ page will have the same header and footer of the _index.html_ as will all the pages. will have links to social media outlets and will also show other ways of contacting the developer. 
+
+![_contact.html_ basic layout](https://i.gyazo.com/c7356cc13115cd8681e8156097a84ad0.png)
+
+##_contact.html_
+
+The layout of the _contact.html_ page was easily achieved without deviating from the design. Using images from [pixabay](https://pixabay.com/) as graphical representation so that each mean of contact is easily recognisable. Also used hover effects on the articles and button to make the size increase, the button also has changes in colour when hovered over.
+
+![_contact.html_ content finished](https://i.gyazo.com/c58e751a0d152330b7726e3cde73907b.jpg)
