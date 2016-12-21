@@ -5,24 +5,20 @@
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
 }
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
-  background-image: url("../images/architecture.jpg");
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size cover;
-}
 /* Start of index.html */
-.wrapper {
+.wrapper-index {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+  overflow-x: hidden;
+  background-image: url("../images/architecture.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size cover;
 }
 
 /* Start of header- every page*/
@@ -76,11 +72,19 @@ nav ul li {
   color: #9fff80;
   transition: all 1.5s;
 }
-nav li:hover{
+a li i {
+  color: #9fff80;
+  margin-left: 1vmin;
+  transition: all 1.5s;
+}
+nav li:hover {
   box-shadow: inset 0 -100px 0 0 #9fff80;
   color: #333;
 }
-nav li:hover a{
+nav li:hover a {
+  color: #333;
+}
+nav li:hover i {
   color: #333;
 }
 a img:hover {
@@ -203,15 +207,30 @@ i:hover p {
 /* End if index.html */
 
 /* start of cv.html */
+.wrapper-cv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  background-image: url("../images/architecture.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size cover;
+}
+
 .content-wrapper {
   height: 85%;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   order: 2;
 }
 .main-cv {
-  .aside-bio-right
   height: 100%;
   width: 50%;
   display: flex;
@@ -237,6 +256,9 @@ i:hover p {
 .wrapper-ul {
   width: 50%;
 }
+.wrapper-ul {
+  font-size: 2.5vmin;
+}
 .main-cv section {
   height: 90%;
   width: 90%;
@@ -255,7 +277,7 @@ i:hover p {
 .content-wrapper section li {
   width: 70%;
   margin: 1%;
-  font-size: 2.3vmin;
+  font-size: 2.1vmin;
 }
 .aside-cv section {
   height: 40%;
@@ -275,10 +297,12 @@ i:hover p {
 .subtitle {
   text-decoration: none;
   list-style: none;
+  font-size: 3vmin;
   margin: 2.5%;
   width: 100%;
 }
 .indented {
+  font-size: 2vmin;
   list-style: inside;
   width: 100%;
   display: flex;
@@ -289,285 +313,63 @@ i:hover p {
 /* end of cv.html */
 
 /* start of bio.html */
+.wrapper-bio {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  background-image: url("../images/architecture.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size cover;
+}
 
 .main-bio {
   height: 85%;
   width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  order: 2;
-}
-.content-banner-top {
-  width: 85.4%;
-  height: 20%;
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-left: 7.3%;
-  margin-right: 7.3%;
+  flex-wrap: wrap;
+  order: 2
 }
-.middle-bio {
-  width: 100%;
-  height: 60%;
-  display: flex;
-  flex-direction: row;
+.main-bio section {
+height: 50vmin;
+width: 50vmin;
+display: flex;
+flex-wrap: wrap;
+background-color: rgba(51, 51, 51, 0.5);
+border: 1vmin solid black;
+border-radius: 20px;
+box-shadow: 5px 5px 20px black;
+transition: all 1s;
+margin: 2vmin;
 }
-.aside-bio-left {
-  width: 20%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.main-bio section img {
+  height: 30%;
+  width: 30%;
+  border-radius: 10px;
+  transition: all 1s;
 }
-.bio-text-container {
-  width: 60%;
-  height: 100%;
-  background-color: rgba(51, 51, 51, 0.5);
-  border: 1vmin solid black;
-  border-radius: 20px;
+.main-bio section h2 {
+  font-size: 3.5vmin;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding: 2vmin;
 }
-.aside-bio-right {
-  width: 20%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.content-banner-bottom {
-  width: 85.4%;
-  height: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 7.3%;
-  margin-right: 7.3%;
-
-}
-.main-bio a {
-  height: 10vmin;
-  width: 10vmin;
-  border: 0.5vmin solid black;
-  border-radius: 50%;
+.main-bio section p {
+  font-size: 2.5vmin;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  padding: 2vmin;
 }
 /* end of bio.html */
 
 /* Start of Media Query */
 
-@media screen and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)
-{
 
-
-  /* start of Media query for main */
-
-  .main-index {
-    width: 100%;
-    min-height: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    order: 2;
-  }
-  .main-index ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    flex-direction: column;
-    width: 75%;
-    height: 70%;
-    background-color: rgba(51, 51, 51, 0.5);
-    border-radius: 5px;
-    border-bottom: 1vmin solid black;
-  }
-  .main-index li {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    height: 100%;
-  }
-  .name {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-    order: 1;
-  }
-  .study {
-    height: 100%;
-    width: 100%;
-    margin: 5%;
-    order: 3;
-  }
-  .picture {
-    height: 20vmin;
-    width: 18vmin;
-    margin: 5%;
-    order: 2;
-  }
-  li .picture img {
-    border: 1px solid black;
-    border-radius: 50%;
-  }
-  .main-index h1 {
-    font-size: 5vmin;
-  }
-  .main-index h3 {
-    font-size: 3vmin;
-  }
-  .picture img {
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-  }
-  /* start of Media query */
-}
-@media screen and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
-
-
-  /* start of Media query for main */
-
-  .main-index {
-    width: 100%;
-    min-height: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    order: 2;
-  }
-  .main-index ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    flex-direction: column;
-    width: 75%;
-    height: 70%;
-    background-color: rgba(51, 51, 51, 0.5);
-    border-radius: 5px;
-    border-bottom: 1vmin solid black;
-  }
-  .main-index li {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    height: 100%;
-  }
-  .name {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-    order: 1;
-  }
-  .study {
-    height: 100%;
-    width: 100%;
-    margin: 5%;
-    order: 3;
-  }
-  .picture {
-    height: 20vmin;
-    width: 18vmin;
-    margin: 5%;
-    order: 2;
-  }
-  li .picture img {
-    border: 1px solid black;
-    border-radius: 50%;
-  }
-  .main-index h1 {
-    font-size: 5vmin;
-  }
-  .main-index h3 {
-    font-size: 3vmin;
-  }
-  .picture img {
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-  }
-}
-@media (max-width: 800px) {
-
-  .main-index {
-    width: 100%;
-    min-height: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    order: 2;
-  }
-  .main-index ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    flex-direction: column;
-    width: 75%;
-    height: 70%;
-    background-color: rgba(51, 51, 51, 0.5);
-    border-radius: 5px;
-    border-bottom: 1vmin solid black;
-  }
-  .main-index li {
-    display: flex;
-    align-items: center;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    height: 100%;
-  }
-  .name {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 5%;
-    order: 1;
-  }
-  .study {
-    height: 100%;
-    width: 100%;
-    margin: 5%;
-    order: 3;
-  }
-  .picture {
-    height: 20vmin;
-    width: 18vmin;
-    margin: 5%;
-    order: 2;
-  }
-  li .picture img {
-    border: 1px solid black;
-    border-radius: 50%;
-  }
-  .main-index h1 {
-    font-size: 5vmin;
-  }
-  .main-index h3 {
-    font-size: 3vmin;
-  }
-  .picture img {
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-}
-
-@media (max-width: 800px) {
-
-  .content-wrapper section li {
-    font-size: 2vmin;
-  }
-}
 /* end of Media Query */

@@ -64,3 +64,19 @@ The _CV.html_ page will have the same header and footer of the _index.html_ as w
 Changed the layout of the _cv.html_ compared to the way it was designed. Took out hobbies and decided to have Qualifications on the left by itself as it contains a large amount of content whereas experience and skills has considerable less. Also changed the links at the top.
 
 ![_cv.html_ finished content](https://i.gyazo.com/a50ce2165ca6f92945c947fea327b2ee.jpg)
+
+#####21/12/2016
+##Design
+###bio page
+
+The _bio.html_ page will have the same header and footer of the _index.html_ as will all the pages. The page will be split into four section, University, Football and Hobbies (due to cutting hobbies from the _cv.html_ because of spacing issues). 
+
+![_bio.html_ basic layout](https://i.gyazo.com/ce178b3c3fb384c9608717eacdbd43a0.png)
+
+##_bio.html_
+
+The layout of the _bio.html_ is basically the same as the design except graphical representations were added to the top left the of the boxes to represent what information will be in that box. The information is yet to be added instead 'ipsum' text was used from [webpagefx](http://www.webpagefx.com/web-design/html-ipsum/) to represent what is would look like with real information.
+
+Also the header was changed by adding icons as a graphical representation.
+
+![Finished content](https://i.gyazo.com/c7017a4b84c91eef9889d4764adcf7ad.jpg)
