@@ -93,3 +93,18 @@ The _bio.html_ page will have the same header and footer of the _index.html_ as 
 The layout of the _contact.html_ page was easily achieved without deviating from the design. Using images from [pixabay](https://pixabay.com/) as graphical representation so that each mean of contact is easily recognisable. Also used hover effects on the articles and button to make the size increase, the button also has changes in colour when hovered over.
 
 ![_contact.html_ content finished](https://i.gyazo.com/c58e751a0d152330b7726e3cde73907b.jpg)
+
+####24/12/2016
+Due to the button looking out of place and somewhat unprofessional the link to the form page was changes so that it had the same design as the other articles on the page. 
+ ![_contact.html_ button changes to article](https://i.gyazo.com/124faa6588fe61f91af4be86529e581e.jpg)
+
+##Design
+###From Page
+
+The form page will simply contain spaces for users to enter their name, email and a message.
+
+![basic layout of _form.html_](https://i.gyazo.com/6f02fa78e0688b938f58e6141fb7d31a.png)
+
+##_form.html_
+Again the design of this page was very simple therefore no changes from the original design needed to be made.
+![_Form.html_ Finished content](https://i.gyazo.com/7d135a06b20d7385cac72ca48580936f.png)
