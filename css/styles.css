@@ -32,7 +32,7 @@ header {
   display: flex;
   flex-direction: row;
   box-shadow: 0 5px 20px black;
-  order: 1;
+  order: 0;
 }
 nav {
   width: 100%;
@@ -163,6 +163,7 @@ footer {
   justify-content: space-between;
   background-color: #333;
   order: 3;
+  position:
 }
 footer a {
   color: #9fff80;
@@ -350,6 +351,7 @@ border-radius: 20px;
 box-shadow: 5px 5px 20px black;
 transition: all 1s;
 margin: 2vmin;
+order: 1;
 }
 .main-bio section img {
   height: 30%;
@@ -578,6 +580,35 @@ input {
      margin-right: 0;
      width: 100%;
    }
+   .wrapper-bio {
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+   }
+   .main-bio .university {
+     margin-top: 10%;
+   }
+   .wrapper-bio footer {
+     display: none;
+   }
+   .wrapper-contact footer {
+     display: none;
+   }
  }
-
+ @media screen and (max-width: 950px) {
+   .wrapper-bio footer {
+     display: none;
+   }
+   form {
+     width: 35%;
+   }
+ }
+  @media screen and (max-width: 650px) {
+    .wrapper-contact footer {
+      display: none;
+    }
+    form {
+      width: 50%;
+    }
+  }
 /* end of Media Query */
