@@ -544,6 +544,8 @@ input {
 /* end of form.html */
 
 /* Start of Media Query */
+
+/* For smaller resolution screen */
  @media screen and (max-width: 550px) {
    nav ul p {
      display: none;
@@ -611,4 +613,5 @@ input {
       width: 50%;
     }
   }
+  /* For Mobile Compatability */
 /* end of Media Query */
