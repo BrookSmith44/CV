@@ -105,6 +105,26 @@ The form page will simply contain spaces for users to enter their name, email an
 
 ![basic layout of _form.html_](https://i.gyazo.com/6f02fa78e0688b938f58e6141fb7d31a.png)
 
-##_form.html_
+#_form.html_
 Again the design of this page was very simple therefore no changes from the original design needed to be made.
 ![_Form.html_ Finished content](https://i.gyazo.com/7d135a06b20d7385cac72ca48580936f.png)
+
+#### 11/01/2017
+The form page looked out of place without having the same background so I decided to add the background to the _form.html_
+![_form.html_  added background image](https://i.gyazo.com/192ef529ac8ad90c46c0d827b023bdac.png)
+ 
+#Media Queries for Smaller Resolution Monitors
+
+Media queries were used to make sure that everything fit onto the page well and still looks aesthetically pleasing.
+
+![_index.html_ small resolution](https://i.gyazo.com/67486cf00d8f93a0401d8caebcc30204.png)
+
+![_cv.html_ small resolution](https://i.gyazo.com/73a6ee38389203e4ed9eaf39fb58c3e7.png)
+
+![_bio.html_ small resolution top](https://i.gyazo.com/dc6ac32081a4c6e6a2d0f6bce2f921e3.png)
+
+![_bio.html_ small resolution bottom](https://i.gyazo.com/42d16371ea1325335cbd6394efe67742.png)
+
+![_contact.html_ small resolution](https://i.gyazo.com/e4eb2c85fdaae151ed4cee02bda9a4e5.png)
+
+![_form.html_ small resolution](https://i.gyazo.com/c88239a324d7e6961524febfd1c3782c.png)
