@@ -140,3 +140,46 @@ Media queries were used to make sure that everything fit onto the page well and 
 ![_contact.html_ small resolution](https://i.gyazo.com/e4eb2c85fdaae151ed4cee02bda9a4e5.png)
 
 ![_form.html_ small resolution](https://i.gyazo.com/c88239a324d7e6961524febfd1c3782c.png)
+
+####12/01/2017
+#HTML Validation
+
+##_index.html_
+
+![_index.html_html validation](https://i.gyazo.com/75dc800ae31fec4742e007fbc2214983.png)
+
+Unable to change the Logo a tag or the p tags without changing entire design of every  page.
+
+###After Fixes
+![_index.html_html validation after fixes](![_index.html_html validation](https://i.gyazo.com/75dc800ae31fec4742e007fbc2214983.png)
+
+##_cv.html_
+
+![_cv.html_html validation](https://i.gyazo.com/b707f25e42cc01390aaf19eab5e51856.png)
+
+###After fixes
+![_cv.html_html validation after fixes](https://i.gyazo.com/77431129aa74753c8579694b5bc13395.png)
+
+##_bio.html_
+
+![_bio.html_html validation](https://i.gyazo.com/2eb9c774696e42e81805632c41ea5cd8.png)
+ Unable to make those changes as previously stated.
+##_contact.html_
+
+![_contact.html_html validation](https://i.gyazo.com/25b0689b6644e28a86d8955f05189d51.png)
+
+###After fixes
+
+![_contact.html_html validation after fixes](https://i.gyazo.com/6b33f2502a75b2e8a0b7712c6ec1f80b.png)
+
+##form.html
+
+![_form.html_html validation](https://i.gyazo.com/58d7a5c0bcd79c715c0cc9882105cd3d.png)
+Unable to make any changes
+
+#CSS Validation
+![CSS validation](https://i.gyazo.com/195b04cd4500954ecc833d55b28f169f.png)
+
+##After fixes 
+
+![CSS validation](https://i.gyazo.com/7314bda4ee6106312fffdfa9de26835b.png)

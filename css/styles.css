@@ -18,7 +18,6 @@
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size cover;
 }
 
 /* Start of header- every page*/
@@ -41,9 +40,7 @@ nav {
 a img {
   width: 18vmin;
   height: 18vmin;
-  position: sticky;
   transition: all 1s;
-
 }
 nav ul {
   width: 100%;
@@ -65,13 +62,18 @@ nav ul li {
   border-bottom: 3px solid #9fff80;
   transition: all 1.5s;
 }
- a li {
-  width: 20vmin;
+  li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   color: #9fff80;
   transition: all 1.5s;
 }
-a li i {
+ li i {
   color: #9fff80;
   margin-left: 1vmin;
   transition: all 1.5s;
@@ -163,7 +165,6 @@ footer {
   justify-content: space-between;
   background-color: #333;
   order: 3;
-  position:
 }
 footer a {
   color: #9fff80;
@@ -219,9 +220,7 @@ i:hover p {
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size cover;
 }
-
 .content-wrapper {
   height: 85%;
   width: 100%;
@@ -255,10 +254,12 @@ i:hover p {
 }
 .wrapper-ul {
   width: 50%;
-}
-.wrapper-ul {
   font-size: 2.5vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .main-cv section {
   height: 90%;
   width: 90%;
@@ -297,6 +298,9 @@ i:hover p {
   display: flex;
   flex-direction: column;
 }
+.title {
+  list-style: none;
+}
 .subtitle {
   text-decoration: none;
   list-style: none;
@@ -328,9 +332,7 @@ i:hover p {
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size cover;
 }
-
 .main-bio {
   height: 85%;
   width: 100%;
@@ -393,7 +395,6 @@ order: 1;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size cover;
 }
  .main-contact {
    width: 100%;
@@ -499,7 +500,6 @@ order: 1;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  -ms-background-size cover;
 }
 .main-form {
   height: 85%;
