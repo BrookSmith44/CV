@@ -1,7 +1,7 @@
 #####Brook Smith 16426201
 # csy1018-assign1
 First assignment for csy1018 (Web Development)
-
+In the process of doing this assignment I have discussed the assignment with Ben Mckeown and Alfie England.
 #####21/11/2016
 ##Design
 ###Index page
