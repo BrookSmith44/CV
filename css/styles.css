@@ -160,6 +160,8 @@ header a img:hover {
 footer {
   width: 100%;
   height: 5%;
+  position: fixed;
+  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -284,7 +286,7 @@ i:hover p {
   font-size: 2.1vmin;
 }
 .aside-cv section {
-  height: 40%;
+  height: 45%;
   width: 50%;
 }
 .aside-cv .subtitle {
@@ -343,17 +345,17 @@ i:hover p {
   order: 2
 }
 .main-bio section {
-height: 50vmin;
-width: 50vmin;
-display: flex;
-flex-wrap: wrap;
-background-color: rgba(51, 51, 51, 0.6);
-border: 1vmin solid black;
-border-radius: 20px;
-box-shadow: 5px 5px 20px black;
-transition: all 1s;
-margin: 2vmin;
-order: 1;
+  height: 50vmin;
+  width: 50vmin;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 1vmin solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px black;
+  transition: all 1s;
+  margin: 5.5vmin;
+  order: 1;
 }
 .main-bio section img {
   height: 30%;
@@ -590,25 +592,13 @@ input {
    .main-bio .university {
      margin-top: 10%;
    }
-   .wrapper-bio footer {
-     display: none;
-   }
-   .wrapper-contact footer {
-     display: none;
-   }
  }
  @media screen and (max-width: 950px) {
-   .wrapper-bio footer {
-     display: none;
-   }
    form {
      width: 35%;
    }
  }
   @media screen and (max-width: 650px) {
-    .wrapper-contact footer {
-      display: none;
-    }
     form {
       width: 50%;
     }
