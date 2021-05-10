@@ -1,46 +1,533 @@
-<!DOCTYPE html>
-
-<!-- Brook Smith - CSY1018 Assignment 1 - Student Number 16426201 -->
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon"/>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <title>Brook Smith | Home</title>
-  </head>
-  <body>
-    <div class="wrapper-index">
-      <header>
-        <nav>
-          <ul>
-          <li><a href="cv.html"><p>CV</p><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
-          <li><a href="bio.html"><p>Biography</p><i class="fa fa-user" aria-hidden="true"></i></a></li>
-          <a href="index.html"><img src="images/Logo.png" alt="Logo" class="logo" /></a>
-          <li><a href="contact.html"><p>Contact</p><i class="fa fa-phone" aria-hidden="true"></i></a></li>
-          <li><a href="form.html"><p>Form</p><i class="fa fa-check-square-o" aria-hidden="true"></i></a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main-index">
-      <ul>
-        <li class="name"><h1>Brook Smith</h1></li>
-        <li class="study"><h3>Studying Software Engineering at The University of Northampton</h3></li>
-        <li class="picture"><img src="images/indeximage.jpg" alt="Image of Me"></li>
-      </ul>
-    </main>
-    <footer>
-      <section class="icons">
-        <a href="https://www.facebook.com/Brokili44"><i class="fa fa-facebook-official" aria-hidden="true"><p>Brook Smith</p></i></a>
-        <a><i class="fa fa-envelope-o" aria-hidden="true"><p>brook.smith.182@gmail.com</p></i></a>
-        <a href="https://twitter.com/Brook_Luiz_182"><i class="fa fa-twitter" aria-hidden="true"><p>@Brook_Luiz_182</p></i></a>
-        <a><i class="fa fa-mobile" aria-hidden="true"><p>07927915142</p></i></a>
-      </section>
-        <a class="cr">Copyright © 2016 Brook Smith</a>
-    </footer>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P2507945</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="css/images/Logo.png" />
+</head>
+<body>
+  <div id="backdrop"></div>
+  <nav id="menu" class="nav">
+    <a id="menu-home" class="nav-link" href="#home">Home</a>
+    <a id="menu-about" class="nav-link" href="#about">About Me</a>
+    <a id="menu-portfolio" class="nav-link" href="#work-experience">Employment History</a>
+    <a id="menu-experience" class="nav-link" href="#portfolio">Portfolio</a>
+    <a id="contact-me" class="btn">Contact Me</a>
+  </nav>
+  <div id="toggleMenu" class="menu">
+    <i>&#8801;</i>
   </div>
+  <main>
+    <section id="home" class="nav-point">
+      <h1>Brook</h1>
+      <img src="css/images/Logo.png" alt="Logo" aria-label="Logo"/>
+      <h1>Smith</h1>
+      <canvas id="canvas"></canvas>
+    </section>
+    <section id="about" class="nav-point">
+      <article id="image-container" class="about-article">
+        <img src="css/images/No_Background_Brook_Right.png" alt="Picture Of Self For About Page" aria-label="Picture Of Self For About Page" />
+      </article>
+      <article id="about-content" class="about-article">
+        <h1>About Me</h1>
+        <div id="personal" class="content-option">
+          <i class="fas fa-user-alt"></i>
+          <div class="content">
+            <h2>Personal Details</h2>
+            <p>Born in Warwickshire the third (and last) son for my parents and living at home with my parents and
+              2 elder brothers with only three years between us until moving out to attend university and
+              currently in my third and final year at DeMontford University Leicester studying Computer Science</p>
+          </div>
+        </div>
+        <div id="education" class="content-option">
+          <i class="fas fa-university"></i>
+          <div class="content">
+            <h2>Education</h2>
+            <p>I enjoyed nursery, primary, secondary and college education in Southam Warwickshire being lucky
+              enough to attend the highly credited Southam College both during my secondary and college
+              education where I studied for and gained GCSE and A Level qualifications before moving onto
+              university.</p>
+          </div>
+        </div>
+        <div id="hobbies" class="content-option">
+          <i class="fas fa-futbol"></i>
+          <div class="content">
+            <h2>Hobbies</h2>
+            A lover of the great outdoors and sports of all dimensions both playing, supporting and spectating in
+          contrast to my passion for coding web development and computer science. Avid supporter of
+          Liverpool Football Club where I have been a member for some years and enjoy games at Anfield
+          when studies permit.
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="work-experience" class="nav-point">
+      <article id="timeline-container" class="">
+        <h2>Employment Timeline</h2>
+        <div id="timeline">
+          <div class="timeline-content">
+            <div id="warehouse" class="content">
+              <h3>2020</h3>
+              <div class="employment">
+                <h4>Warehouse Operative</h4>
+                <br>
+                <p>Samworth Brothers</p>
+              </div>
+            </div>
+            <div id="packer" class="content">
+              <h3>2019</h3>
+              <div class="employment">
+                <h4>Amazon</h4>
+                <br>
+                <p>Warehouse Operative</p>
+              </div>
+            </div>
+            <div id="crew-member" class="content">
+              <h3>2019</h3>
+              <div class="employment">
+                <h4>Crew Member</h4>
+                <br>
+                <p>BrookBell Tents</p>
+              </div>
+            </div>
+            <div id="waiter" class="content">
+              <h3>2019</h3>
+              <div class="employment">
+                <h4>Leicester City Football Club</h4>
+                <br>
+                <p>Waiter</p>
+              </div>
+            </div>
+            <div id="it-technician" class="content">
+              <h3>2018</h3>
+              <div class="employment">
+                <h4>RepairTech</h4>
+                <br>
+                <p>IT Technician</p>
+              </div>
+            </div>
+            <div id="picker" class="content">
+              <h3>2017</h3>
+              <div class="employment">
+                <h4>Decathelon</h4>
+                <br>
+                <p>Warehouse Operative</p>
+              </div>
+            </div>
+            <div id="rider" class="content">
+              <h3>2017</h3>
+              <div class="employment">
+                <h4>Deliveroo</h4>
+                <br>
+                <p>Rider</p>
+              </div>
+            </div>
+            <div id="web-developer" class="content">
+              <h3>2016</h3>
+              <div class="employment">
+                <h4>Engange Marketing</h4>
+                <br>
+                <p>Web Developer</p>
+              </div>
+            </div>
+            <div id="cleaner" class="content">
+              <h3>2015</h3>
+              <div class="employment">
+                <h4>UnitClean</h4>
+                <br>
+                <p>Cleaner</p>
+              </div>
+            </div>
+            <div id="boat-cleaner" class="content">
+              <h3>2015</h3>
+              <div class="employment">
+                <h4>Calcutt Boats</h4>
+                <br>
+                <p>Cleaner</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="employment-history">
+        <h1 id="employment-history-heading">Employment History</h1>
+        <div id="it-employment" class="content-option">
+          <i class="fas fa-desktop"></i>
+          <div class="content">
+            <h2>IT Employment</h2>
+            <p>Following discovery of my interest in computer technology programming and web development I set
+          out on a journey of a self-learning supported by work experience gained in temporary holiday
+          positions in computer and technology firms. I was proud to be offered permanent employment in
+          each case</p>
+          </div>
+        </div>
+        <div id="general-employment" class="content-option">
+          <i class="fas fa-warehouse"></i>
+          <div class="content">
+            <h2>General Employment</h2>
+            <p>Albeit often necessity to support my student loan I have enjoyed a wealth of experience in
+              miscellaneous employment mainly in warehousing positions. Such experience has been valuable in
+              recognising targets and deadlines and appreciating he workings of the commercial world, working as
+              a team and consideration of your colleagues</p>
+          </div>
+        </div>
+        <div id="summer-employment" class="content-option">
+          <i class="far fa-sun"></i>
+          <div class="content">
+            <h2>Summer Employment</h2>
+            <p>From an early age I have gained employment during the summer holidays. Earning a little “pocket
+          money” and gaining valuable experience. Calcutt Boats and Brook Bell Tents both being holiday
+          ventures illustrated the importance of customer care and invaluable lessons in dealing with
+          customers and social contact with others</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="portfolio" class="nav-point">
+      <div class="portfolio-sidebar">
+        <h2>Languages: </h2>
+        <ul id="languages">
+          <li class="language">HTML5</li>
+          <li class="language">CSS</li>
+          <li class="language">PHP</li>
+          <li class="language">JavaScript</li>
+          <li class="language">Java</li>
+          <li class="language">C#</li>
+        </ul>
+      </div>
+      <div class="portfolio-content">
+        <h1>Portfolio</h1>
+        <section id="projects">
+          <a href="https://footballthemedlearning.uk/" id="game-based-learning-container">
+            <article id="game-based-learning" class="project">
+              <img src="css/images/game-based-learning.jpg" alt="Game Based Learning Project" aria-label="Game Based Learning Project" />
+              <h4>Football Themed Learning</h4>
+            </article>
+          </a>
+          <a href="https://brooksmith44.github.io/Startpage/" id="startpage-container">
+            <article id="startpage" class="project">
+              <img src="css/images/startpage.png" alt="Startpage Screenshot" aria-label="Startpage Screenshot" />
+              <h4>Startpage</h4>
+            </article>
+          </a>
+          <a href="https://github.com/BrookSmith44/Quarantine-Quiz" id="quanrantine-quiz-container">
+            <article id="quanrantine-quiz" class="project">
+              <img src="css/images/quanrantine-quiz-screenshot.png" alt="Quarantine Quiz Project" aria-label="Quarantine Quiz Project" />
+              <h4>Quarantine Quiz</h4>
+            </article>
+          </a>
+          <a href="https://github.com/BrookSmith44/Business-Intelligence" id="business-intelligence-container">
+            <article id="business-intelligence" class="project">
+              <img src="css/images/business_intelligence_code.png" alt="Business Intelligence Project" aria-label="Business Intelligence Project" />
+              <h4>Business Intelligence</h4>
+            </article>
+          </a>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div id="navBtns">
+    <i id="upChevron" class="fas fa-chevron-up scroll"></i>
+    <i id="downChevron" class="fas fa-chevron-down scroll"></i>
+  </div>
+  <div id="modal" class="modal">
+    <nav id="modal-nav">
+      <h1></h1>
+      <a id="close-modal" aria-label="Close Modal Box">&times;</a>
+    </nav>
+    <div id="modal-body">
+      <article id="personal-details" class="modal-content personal">
+        <img id="personal-pic" class="modal-pic" src="css/images/profile.jpg" alt="Picture With Charlie The Dog" aria-label="Picture With Charlie The Dog" />
+        <h2>Brook Smith</h2>
+        <label>Date of Birth: </label><p>29/07/1998</p>
+        <label>Address: </label>
+        <p>1 Grange Farm Drive
+          <br>
+          Stockton,
+          <br>
+          Southam,
+          <br>
+          Warwickshire,
+          <br>
+          CV47 8FT
+        </p>
+        <label>Mobile: </label><p>07838281537</p>
+        <label>Email Address: </label><p>SBrook044@gmail.com</p>
+      </article>
+      <article id="education-modal" class="modal-content education">
+        <div class="education-column">
+          <h2>GCSE</h2>
+          <h4>Southam College</h4>
+          <div class="qualifications"><label>English Literature: </label><p>A&#42;</p></div>
+          <div class="qualifications"><label>Physical Education: </label><p>Distinction&#42;</p></div>
+          <div class="qualifications"><label>English Language: </label><p>A</p></div>
+          <div class="qualifications"><label>Mathematics: </label><p>B</p></div>
+          <div class="qualifications"><label>Biology: </label><p>B</p></div>
+          <div class="qualifications"><label>Chemistry: </label><p>B</p></div>
+          <div class="qualifications"><label>History: </label><p>B</p></div>
+          <div class="qualifications"><label>Citizenship: </label><p>B</p></div>
+          <div class="qualifications"><label>Regligous Studies: </label><p>B</p></div>
+          <div class="qualifications"><label>Physics: </label><p>C</p></div>
+          <div class="qualifications"><label>Engineering: </label><p>C</p></div>
+          <div class="qualifications"><label>Spanish: </label><p>D</p></div>
+        </div>
+        <div class="education-column">
+          <h2>A-Levels</h2>
+          <h4>Southam College</h4>
+          <div class="qualifications"><label>English Literature: </label><p>C</p></div>
+          <div class="qualifications"><label>Business: </label><p>C</p></div>
+          <div class="qualifications"><label>Psychology: </label><p>D</p></div>
+        </div>
+        <div class="education-column">
+          <h2>Higher Education</h2>
+          <h4>DeMontfort University</h4>
+          <div class="qualifications"><label>Computing: </label><p>Predicted Grade - 2:1</p></div>
+        </div>
+      </article>
+      <article id="hobbies-modal" class="modal-content hobbies">
+        <p>A lover of the great outdoors and sports of all dimensions both playing, supporting and spectating in
+          contrast to my passion for coding web development and computer science. Avid supporter of
+          Liverpool Football Club where I have been a member for some years and enjoy games at Anfield
+          when studies permit.</p>
+          <br>
+          <p>Other than spending time on my computer I love the great outdoors and most sport. My passion is
+            in FOOTBALL whether watching and supporting LFC or playing myself. I have throughout my life
+            been involved with football in one form or another. I have played competitive football from the age
+            of 6 playing for our village team for four years and going on to play senior football for my school and
+            local teams. I continue to play football for a local village team where I won the 'Bishops Cult Hero'
+            award in my first season.</p>
+            <br>
+          <p>Encouraged by my “go for it parents” I have tried aggressive skating, water skiing, climbing and off-
+            road cycling and more recently a motorbike.</p>
+            <br>
+            <p>Developed an interest in programming and web development at the age of 17 during that year
+            began teaching myself at home and using my own personal computer to create games and produce
+            web applications. I am self taught but found an aptitude for it and fell in love with the nature of the work. I
+            was lucky enough to be given an opportunity to take some work experience in a marketing company
+            specialising in web development and creation of programs and found myself to be well within my
+
+            capabilities and enjoyed the experience, the challenge and the work. As a result I opted for a
+            computer course at University. I consider it a hobby and hope that it will become my career.</p>
+
+            <ul>
+              <li>Running/ Cycling/ Walking</li>
+              <li>Web Development</li>
+              <li>Games Development (Unity)</li>
+              <li>Mono Skiing</li>
+              <li>Charity Runs (colour run/ wolf run)</li>
+              <li>Football</li>
+              <li>Squash</li>
+            </ul>
+      </article>
+      <article id="samworth-brothers" class="modal-content general-employment warehouse">
+        <h2>Samworth Brothers</h2>
+        <p class="description">Samworth Brother's produce premium quality chilled and ambient foods, both own label and brand,
+          with are distributed all across the world to stores such as Tesco, Aldi, Asda, Sainsbury's, etc.</p>
+        <ul class="job-details">
+          <li>Chilled Environment Warehouse Operative</li>
+          <li>&#128197; 03/2020 - 09/2020</li>
+          <li>&#128205; Braunstone Industrial Estate, Leicestershire</li>
+        </ul>
+        <ul class="responsibilities">
+          <li>Restocking shelves</li>
+          <li>Quality assurance before shipping</li>
+          <li>Processing orders</li>
+        </ul>
+      </article>
+      <article id="amazon" class="modal-content general-employment packer">
+        <h2>Amazon</h2>
+        <p class="description">TechData warehouse in Lutterworth shares a part of it's warehouse with
+          Amazon in which it stores their high tech products such as smartphones,
+          monitors and laptops.</p>
+        <ul class="job-details">
+          <li>Packer</li>
+          <li>&#128197; 10/2019 - 03/2020</li>
+          <li>&#128205; Magna Park, Lutterworth</li>
+        </ul>
+        <ul class="responsibilities">
+          <li>Reviewed and verified order information and shipping points to ensure 100% accuracy</li>
+          <li>Prepared and processed customer orders</li>
+          <li>Received and assigned inventory to destinations within distribution facility</li>
+          <li>Organising boxes with high tech products to ensure safety of the
+              product when shipping to customer</li>
+        </ul>
+      </article>
+      <article id="brookbell-tents" class="modal-content summer-employment crew-member">
+        <h2>BrookBell Tents</h2>
+        <ul class="job-details">
+          <li>Crew Member</li>
+          <li>&#128197; 06/2019 - Ongoing</li>
+          <li>&#128205; Travelling Across The Country</li>
+        </ul>
+        <p class="description">Brook Bell Tents is a family owned business that provides luxury
+          camping experiences for festivals all over the country. Providing
+          customers with not only quality accommodation but also outstanding
+          customer service.</p>
+          <ul class="responsibilities">
+            <li>Designing and organising layout and structure of field space given in
+              order to fit 80-120 large bell tents with space for customers to park
+              cars and have access to electrical hookup. Also being able to organise
+              the placement of customers based on where they wanted to be in
+              relation to toilets, communal tents or other customers</li>
+            <li>Working under pressure - Being allowed on site very shortly before
+              the festival being started meant we had to set up 80 tents within a
+              day</li>
+            <li>Decorating the interior of each tent dependent on what package each
+              customer has ordered and ensuring that all the features of each
+              package are there and in excellent condition</li>
+            <li>Responsible for exceptional customer service/ meeting any customer
+              needs necessary</li>
+            <li>Promoted to team leader after one month of working there due to
+              being incredibly hardworking, great attitude and dedication to the job</li>
+          </ul>
+      </article>
+      <article id="leicester" class="modal-content general-employment waiter">
+        <h2>Leicster City Football Club</h2>
+        <p class="description">Providing quality service for the hospitality ticket holders to each game
+          by providing food and drinks before after and during the games.</p>
+        <ul class="job-details">
+          <li>Waiter/ Bar Staff</li>
+          <li>&#128197; 07/2019 - 10/2019</li>
+          <li>&#128205; King Power Stadium, Leicestershire</li>
+        </ul>
+        <ul class="responsibilities">
+          <li>Mixed, suggested, prepared & served top-notch drinks with
+            exceptional customer service</li>
+          <li>Effectively handled customer complaints and special requests</li>
+          <li>Established repeat business by developing positive relationships with customers</li>
+        </ul>
+      </article>
+      <article id="repairtech" class="modal-content it-employment it-technician">
+        <h2>RepairTech</h2>
+        <ul class="job-details">
+          <li>IT Technician</li>
+          <li>&#128197; 04/2018 - 09/2018</li>
+          <li>&#128205; Southam, Warwickshire</li>
+        </ul>
+        <p class="description">RepairTech is a company which is partnered with many multinational
+          companies such as Nintendo and Samsung and is tasked with product
+          testing, recall, upgrade and return, product disposal and project
+          management services such as cost analysis and reporting.</p>
+          <ul class="responsibilities">
+            <li>Building and installing new PC's for new members of staff</li>
+            <li>General IT support for staff across the company and repairing
+              physical problems</li>
+            <li>Responsible for monitoring, testing and backups on all servers.</li>
+            <li>Learning and development of company software</li>
+            <li>Administration, development and content of company websites</li>
+            <li>Manage inventory of products on online store</li>
+            <li>Fixing front end bugs and back end security bugs on the websites and
+              documenting the problems with there bugs and how they were fixed
+              Creating barcode labels for products that need to be shipped</li>
+            <li>Assisting the IT Manager on anything they need</li>
+          </ul>
+      </article>
+      <article id="decathelon" class="modal-content general-employment picker">
+        <h2>Decathelon</h2>
+        <p class="description">Decathalon is a sports equipment company that provides sports
+          products wholesales to many companies across the world as well as
+          directly to customers.</p>
+        <ul class="job-details">
+          <li>Picker/ Packer</li>
+          <li>&#128197; 09/2017 - 04/2018</li>
+          <li>&#128205; Brack Mills, Northamptonshire</li>
+        </ul>
+        <ul class="responsibilities">
+          <li>Safely, accurately filled and packed orders for nationwide distribution
+            Picked orders using a RF scanner and stocked merchandise</li>
+            <li>Sorted, wrapped, and stacked goods and made labels to be attached
+              to the product</li>
+              <li>Organised and maintained work and storage areas</li>
+              <li>Controlled inventory by collecting stock location orders and printing
+                requests</li>
+              <li>Contributed to team effort by accomplishing productivity goals daily</li>
+              <li>Meeting personal productively goals every day without fail</li>
+        </ul>
+      </article>
+      <article id="deliveroo" class="modal-content general-employment rider">
+        <h2>Deliveroo</h2>
+        <p class="description">Providing food delivery across all corners of the world</p>
+        <ul class="job-details">
+          <li>Rider</li>
+          <li>&#128197; 09/2016 - 09/2017</li>
+          <li>&#128205; Northampton, Northamptonshire</li>
+        </ul>
+        <ul class="responsibilities">
+          <li>Collecting orders from busy restaurants</li>
+          <li>Packing large orders into limited storage space with enough balance to ride with</li>
+          <li>Customer service - on occasion handling customer complaints when restraunt has mistaken the order</li>
+        </ul>
+      </article>
+      <article id="engage-marketing" class="modal-content it-employment summer-employment web-developer">
+        <h2>Engage Marketing</h2>
+        <p class="description">Engage Marketing is a UK based Direct Marketing Agency and Digital Marketing Agency that has been trading for over 15 years.
+          Engage has proven skills in Lead Generation, Data Provision, Social Media and Website Development.</p>
+        <ul class="job-details">
+          <li>Web Developer - Summer Internship</li>
+          <li>&#128197; 06/2016 - 07/2016</li>
+          <li>&#128205; Preston, Lancashire</li>
+        </ul>
+        <p class="description"></p>
+        <ul class="responsibilities">
+          <li>Email HTML design and development</li>
+        </ul>
+      </article>
+      <article id="unitclean" class="modal-content general-employment cleaner">
+        <h2>UnitClean</h2>
+        <p class="description">
+          Professional cleaning services including window cleaning, ground maintenance, cleaning services and tenancy cleans.
+          UnitClean also provides janitorial and washroom supplies.
+        </p>
+        <ul class="job-details">
+          <li>Cleaner</li>
+          <li>&#128197; 09/2015 - 06/2016</li>
+          <li>&#128205; Southam, Warwickshire</li>
+        </ul>
+        <p class="description"></p>
+        <ul class="responsibilities">
+          <li>Responsible for cleaning entire Mathmatics department in Southam College</li>
+          <li>Sanitizing all desks and surfaces</li>
+          <li>Mopping/ hoovering all floors</li>
+          <li>Window Cleaning</li>
+          <li>Garbage disposal</li>
+        </ul>
+      </article>
+      <article id="calcutt-boats" class="modal-content summer-employment boat-cleaner">
+        <h2>Calcutt Boats</h2>
+        <p class="description">
+          Calcutt Boats located in the Warwickshire countryside near Napton,
+          around the three locks of the Calcutt flight just off the junction of the Grand Union and Oxford canals.
+          Calcutt remains a family run business that was established back in 1973 that has over the years built a solid reputation for providing friendly, experienced, professional boatyard services.
+        </p>
+        <ul class="job-details">
+          <li>Cleaner</li>
+          <li>&#128197; 02/2015 - 09/2015</li>
+          <li>&#128205; Napton, Warwickshire</li>
+        </ul>
+        <p class="description"></p>
+        <ul class="responsibilities">
+          <li>Cleaning and sanitizing all surfaces of the boat</li>
+          <li>Changing all bed sheets</li>
+          <li>Garbage disposal</li>
+          <li>Quality assurance checks before boat is taken out by next customer</li>
+        </ul>
+      </article>
+      <article id="contact" class="modal-content contact-me">
+        <img id="contact-pic" class="modal-pic" src="css/images/walking.jpg" alt="Walking Picture" aria-label="Walking Away" />
+        <form id="contact-form" method="get" action="#">
+          <input id="subject" class="contact-input" type="text" name="subject" placeholder="Subject"/>
+          <textarea id="body" class="contact-input" name="body" placeholder="Body"></textarea>
+
+          <input id="contact-submit" type="submit" name="submit" value="Contact Me" />
+        </form>
+      </article>
+    </div>
+  </div>
+  <script src="js/classes/particle.js"></script>
+  <script src="js/classes/imageSrc.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://kit.fontawesome.com/d039fb9fae.js" crossorigin="anonymous"></script>
 </body>
 </html>
