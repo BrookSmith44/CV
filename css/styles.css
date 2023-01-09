@@ -435,6 +435,10 @@ body {
   padding: 5px 0;
 }
 
+.resposibilities__nested > li {
+  margin-left: 50px;
+}
+
 @keyframes slideUp {
   from {
     transform: translateY(100%);
